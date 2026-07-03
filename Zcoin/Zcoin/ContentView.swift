@@ -9,7 +9,6 @@ struct CryptoProApp: App {
     }
 }
 
-// MARK: - MAIN
 struct ContentView: View {
     @Environment(\.colorScheme) var scheme
     @State private var selectedTab = 0
